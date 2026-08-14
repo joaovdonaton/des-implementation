@@ -7,6 +7,8 @@ uint64_t powOf2(int k){
     return uint64_t(1)<<k;
 }
 
+// bit Permutation function 
+// returns result
 std::bitset<64> DES::bitPermutation(const std::bitset<64> &block, int* pt){
     std::bitset<64> result(0);
 
